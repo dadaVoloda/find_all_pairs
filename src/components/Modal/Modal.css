@@ -1,0 +1,28 @@
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: var(--color-white);
+}
+
+.modal-body {
+    text-align: center;
+    max-width: 685px;
+    width: 100%;
+    padding: 60px 40px 30px;
+    background-color: var(--color-accent-light);
+    border-radius: var(--br-radius);
+}
+
+.modal-body__text {
+    margin-bottom: 200px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1.6;
+}

@@ -1,0 +1,25 @@
+.card {
+    display: flex;
+    background-color: var(--color-primary);
+    cursor: pointer;
+}
+
+.card--open {
+    background-color: var(--color-grey);
+    cursor: default;
+    pointer-events: none;
+    user-select: none;
+}
+
+.card--hidden {
+    visibility: hidden;
+    opacity: 0;
+}
+
+.card__content {
+    margin: auto;
+    color: var(--color-white);
+}
+
+.card__img {
+}

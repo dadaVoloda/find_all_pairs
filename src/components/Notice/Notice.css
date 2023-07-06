@@ -1,0 +1,9 @@
+.notice {
+    max-width: 200px;
+    padding: 0 12px;
+    text-align: center;
+}
+
+.notice__count {
+    color: var(--color-accent-light);
+}
