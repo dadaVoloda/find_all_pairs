@@ -10,8 +10,6 @@
 
 #### Основной проект курса - [Newsfeed](https://github.com/dadaVoloda/newsfeed)
 
----
-
 ## Getting started
 
 install
